@@ -543,7 +543,7 @@ function buildSearchResults(e) {
       .addSection(searchSection)
       .setFixedFooter(CardService.newFixedFooter()
         .setPrimaryButton(CardService.newTextButton()
-          .setText('🏠 Home')
+          .setText('Home')
           .setOnClickAction(CardService.newAction()
             .setFunctionName('returnToHome')
             .setParameters({ 'messageId': messageId, 'numAtts': numAtts }))));
